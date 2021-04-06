@@ -28,14 +28,18 @@ plt.title('f(x)=x, g(x)=x2 and h(x)=x3')
 #Places a legend in the plot.
 plt.legend()
 
+
+#saves the plot into the same folder as the program. 
+plt.savefig('plot.png') #This has to be in front of show. It was after show before and the plot was coming up blank.
+
 #Shows the plot
 plt.show()
 
-#saves the plot into the same folder as the program. 
-plt.savefig('plot.png')
 
 #References: https://scriptverse.academy/tutorials/python-matplotlib-plot-function.html
 # https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/
 # https://www.w3schools.com/python/matplotlib_pyplot.asp
 #https://realpython.com/python-matplotlib-guide/
 #https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html
+
+#https://stackoverflow.com/questions/30765455/why-is-my-plt-savefig-is-not-working
