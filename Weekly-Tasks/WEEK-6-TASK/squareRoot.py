@@ -1,11 +1,11 @@
 #This program takes in a positive float and outputs its square root
 #Sources:https://medium.com/@sddkal/newton-square-root-method-in-python-270853e9185d
 #https://realpython.com/python-print/, https://www.w3schools.com/python/ref_string_format.asp ,  https://math.stackexchange.com/questions/3524205/square-roots-by-newton-s-method
-
+#https://stackoverflow.com/questions/55232484/newtons-method-for-approximating-square-roots
 
 #This is the function that will be run to generate the square root
 def squareFun(number, iterations = 500): 
-    a = float(number) # this is the number we want to get the square root of
+    a = float(number) # this is the number we want to get the square root of. It is converted to an float to avoid string error. An int would also work.
     for i in range(iterations): # The number of iterations
         number = 0.5 * (number + a / number) # This equation was given in the medium article. It is x_(n+1) = 0.5 * (x_n +a / x_n)
 

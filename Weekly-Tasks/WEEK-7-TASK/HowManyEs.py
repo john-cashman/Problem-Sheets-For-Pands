@@ -16,4 +16,9 @@ print('The Number of E\'s in text file :', e_count) # this prints the result. Us
 myText.close() #closes the file
 
 
-# source: https://easycodebook.com/python-text-file-program-to-count-vowels/
+# references:
+# https://realpython.com/read-write-files-python/
+#  https://pythonexamples.org/python-count-number-of-characters-in-text-file/,
+# https://easycodebook.com/python-text-file-program-to-count-vowels/
+# https://stackoverflow.com/questions/48885930/counting-specific-characters-in-a-file-python
+# https://www.w3schools.com/python/python_file_open.asp
